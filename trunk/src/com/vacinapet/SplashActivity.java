@@ -27,9 +27,10 @@ public class SplashActivity extends Activity {
 						}
 					}
 				} catch (InterruptedException e) {
-					
+
 				} finally {
-					startActivity(new Intent(SplashActivity.this, VacinaPetActivity.class));
+					startActivity(new Intent(SplashActivity.this,
+							VacinaPet.class));
 					finish();
 				}
 			}
